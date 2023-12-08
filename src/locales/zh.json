@@ -1,0 +1,11 @@
+{
+  "title":"公式映射为日期",
+  "description": "将公式字段的值映射为日期字段的值，便于在自动化流程中使用",
+  "funcLabel": "公式",
+  "dateLabel": "日期",
+  "funcPlaceholder": "请选择需要映射的函数字段",
+  "datePlaceholder": "请选择要映射到的日期字段",
+  "convertBtn": "转换",
+  "convertMode": "交互式记录选择",
+  "convertModeInfo": "若不勾选，则默认应用于表格全部记录"
+}

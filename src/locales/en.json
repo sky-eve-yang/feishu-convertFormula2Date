@@ -1,0 +1,9 @@
+{
+  "title": "Formula to Date Mapping",
+  "description": "Map the value of the formula field to the value of the date field for use in automation processes",
+  "funcLabel": "Formula Field",
+  "dateLabel": "Date Field",
+  "funcPlaceholder": "Please select the formula field to be mapped",
+  "datePlaceholder": "Please select the date field to map to",
+  "convertBtn": "Convert"
+}
