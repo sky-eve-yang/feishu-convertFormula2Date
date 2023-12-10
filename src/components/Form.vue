@@ -59,6 +59,8 @@
       {{ $t('convertBtn') }}
     </el-button>
 
+    <el-alert type></el-alert>
+
   </el-form>
   
 </template>

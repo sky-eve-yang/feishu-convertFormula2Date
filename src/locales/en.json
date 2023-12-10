@@ -1,9 +1,23 @@
 {
-  "title": "Formula to Date Mapping",
-  "description": "Map the value of the formula field to the value of the date field for use in automation processes",
-  "funcLabel": "Formula Field",
-  "dateLabel": "Date Field",
-  "funcPlaceholder": "Please select the formula field to be mapped",
-  "datePlaceholder": "Please select the date field to map to",
-  "convertBtn": "Convert"
+  "title": "Formula Type Conversion",
+  "description": "Map the value of a formula field type to other field types for use in automation processes.",
+  "targetFileds": "Currently supported target field types include: Date, Number, Text, Email, Rating, Currency. Continuously updating ~",
+  "funcLabel": "Formula Type",
+  "dateLabel": "Target Type",
+  "funcPlaceholder": "Please select the formula type field to be mapped",
+  "otherPlaceholder": "Please select the target type field to map to",
+  "targetFieldSelectTip": "Please check the target field type to map to",
+  "targetField": {
+    "datetime": "Date",
+    "number": "Number",
+    "text": "Text",
+    "radio": "Radio",
+    "email": "Email",
+    "rating": "Rating",
+    "price": "Currency"
+    
+  },
+  "convertBtn": "Convert",
+  "convertMode": "Interactive Record Selection",
+  "convertModeInfo": "If not selected, it will be applied to all records in the table by default"
 }
