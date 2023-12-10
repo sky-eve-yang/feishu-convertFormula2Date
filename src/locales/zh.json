@@ -1,10 +1,22 @@
 {
-  "title":"公式映射为日期",
-  "description": "将公式字段的值映射为日期字段的值，便于在自动化流程中使用",
-  "funcLabel": "公式",
-  "dateLabel": "日期",
-  "funcPlaceholder": "请选择需要映射的函数字段",
-  "datePlaceholder": "请选择要映射到的日期字段",
+  "title":"公式类型转换",
+  "description": "将公式字段类型的值映射为其他字段类型的值，便于在自动化流程中使用。",
+  "targetFileds": "目前支持的转换后字段类型有：日期类型、数字类型、文本类型、邮件类型、评分类型、货币类型。持续更新中 ~",
+  "funcLabel": "公式类型",
+  "dateLabel": "目标类型",
+  "funcPlaceholder": "请选择需要映射的公式类型字段",
+  "otherPlaceholder": "请选择要映射到的目标类型字段",
+  "targetFieldSelectTip": "请勾选需要映射到的目标字段类型",
+  "targetField": {
+    "datetime": "日期",
+    "number": "数字",
+    "text": "文本",
+    "radio": "单选",
+    "email": "邮件",
+    "rating": "评分",
+    "price": "货币"
+    
+  },
   "convertBtn": "转换",
   "convertMode": "交互式记录选择",
   "convertModeInfo": "若不勾选，则默认应用于表格全部记录"
